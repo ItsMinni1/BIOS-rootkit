@@ -1,7 +1,3 @@
-# Antigravity Bootkit Demonstration
-
-This project is an educational demonstration of an MBR (Master Boot Record) bootkit. It is written in x86 Assembly and designed to run in a virtualized environment.
-
 ## Features
 
 - **Custom Boot Splash**: Overrides the standard BIOS boot process with a custom interface.
@@ -33,7 +29,3 @@ make
 ```bash
 make run
 ```
-
-## Safety Note
-
-This code is strictly for **educational purposes**. Never attempt to write this binary to a physical disk's MBR unless you are an expert and have a full backup of your system.
